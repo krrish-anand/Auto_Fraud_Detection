@@ -173,6 +173,9 @@ def main():
         horizontal=True
     )
     
+    # Use only the features that are available in the dataset and don't conflict with model
+    available_features = [col for col in data.columns if col != 'fraud_reported' and col not in ['_c39', 'policy_bind_date', 'incident_date']]
+    
     # Add clear button with session state
     col1, col2, col3 = st.columns([1, 1, 3])
     with col1:
@@ -198,9 +201,6 @@ def main():
             st.rerun()
     
     input_dict = {}
-    
-    # Use only the features that are available in the dataset and don't conflict with model
-    available_features = [col for col in data.columns if col != 'fraud_reported' and col not in ['_c39', 'policy_bind_date', 'incident_date']]
     
     # Initialize random defaults for all features
     if 'random_defaults' not in st.session_state or st.session_state.get('fields_cleared', False):
