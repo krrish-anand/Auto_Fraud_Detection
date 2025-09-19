@@ -227,13 +227,8 @@ The model identified key fraud indicators through feature importance analysis:
 
 ### Prediction Results
 ![Prediction Results](screenshots/prediction_results.png)
-*Fraud prediction output with confidence scores and recommendations*
+*Fraud prediction output*
 
-> **Note**: Place your screenshot images in the `screenshots/` folder with the following names:
-> - `main_dashboard.png` - Main application interface
-> - `step_by_step_mode.png` - Step-by-step input mode
-> - `quick_form_mode.png` - Quick form input mode  
-> - `prediction_results.png` - Prediction results display
 
 ## 🔮 Future Enhancements
 
