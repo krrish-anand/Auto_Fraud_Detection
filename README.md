@@ -135,18 +135,6 @@ The trained model was serialized using **Joblib** and saved as:
    http://localhost:8501
    ```
 
-### For Development (Jupyter Notebook)
-
-If you want to explore the data analysis and model development process:
-
-```bash
-# Install additional development dependencies
-pip install jupyter matplotlib seaborn plotly
-
-# Launch Jupyter Notebook
-jupyter notebook
-```
-
 ## 💻 Usage
 
 ### Step-by-Step Mode
