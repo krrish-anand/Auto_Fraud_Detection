@@ -197,11 +197,27 @@ Auto_Fraud_Detection/
 ### Model Performance Metrics
 *Results from Jupyter Notebook analysis:*
 
-- **Accuracy**: 85%+ on test dataset
-- **Precision**: High precision for fraud detection (reducing false positives)
-- **Recall**: Balanced recall ensuring most fraud cases are caught
-- **F1-Score**: Optimal balance between precision and recall
-- **ROC-AUC**: Strong discriminative ability between fraud and non-fraud
+- **Accuracy**: **92.99%** on test dataset
+- **ROC-AUC Score**: **93.05%** - Excellent discriminative ability
+- **Precision**: 
+  - Non-Fraud (Class 0): **91%**
+  - Fraud (Class 1): **96%**
+- **Recall**: 
+  - Non-Fraud (Class 0): **96%**
+  - Fraud (Class 1): **91%**
+- **F1-Score**: 
+  - Non-Fraud (Class 0): **93%**
+  - Fraud (Class 1): **93%**
+- **Overall Performance**: 
+  - Macro Average: **93%** across all metrics
+  - Weighted Average: **93%** across all metrics
+
+### Confusion Matrix Results
+- **True Negatives**: 173 (Correctly identified non-fraud)
+- **False Positives**: 8 (Non-fraud incorrectly flagged as fraud)
+- **False Negatives**: 18 (Fraud cases missed)
+- **True Positives**: 172 (Correctly identified fraud)
+- **Total Test Samples**: 371
 
 ### Feature Importance
 The model identified key fraud indicators through feature importance analysis:
