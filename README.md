@@ -2,6 +2,8 @@
 
 A comprehensive machine learning web application built with Streamlit for detecting fraudulent insurance claims using an Extra Trees Classifier model.
 
+🚀 **[Live Demo](https://auto-fraud-detection.streamlit.app/)** |
+
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
@@ -97,6 +99,9 @@ The trained model was serialized using **Joblib** and saved as:
 ### Prerequisites
 - Python 3.8 or higher
 - pip package manager
+
+### Quick Try (No Installation Required)
+🚀 **Try the live app**: [https://auto-fraud-detection.streamlit.app/](https://auto-fraud-detection.streamlit.app/)
 
 ### Local Setup
 
@@ -261,6 +266,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📧 Contact
 
 **Krrish Anand** - krrishanand3832@gmail.com - [@krrish-anand](https://github.com/krrish-anand)
+
+**Live Application**: [https://auto-fraud-detection.streamlit.app/](https://auto-fraud-detection.streamlit.app/)
 
 Project Link: [https://github.com/krrish-anand/Auto_Fraud_Detection](https://github.com/krrish-anand/Auto_Fraud_Detection)
 
