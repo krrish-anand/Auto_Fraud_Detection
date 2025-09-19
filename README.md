@@ -90,17 +90,6 @@ The trained model was serialized using **Joblib** and saved as:
 - **Features**: Trained on 35 carefully selected features
 - **Compatibility**: scikit-learn 1.6.1
 
-### 📁 Jupyter Notebook Structure
-
-```
-Data Analysis Workflow:
-├── 01_data_loading_and_exploration.ipynb
-├── 02_data_preprocessing.ipynb
-├── 03_feature_engineering.ipynb
-├── 04_model_training_and_evaluation.ipynb
-└── 05_model_finalization_and_export.ipynb
-```
-
 *Note: Jupyter notebooks are part of the development process and contain detailed analysis, visualizations, and model comparisons.*
 
 ## 🚀 Installation
