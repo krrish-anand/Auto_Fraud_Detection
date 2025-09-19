@@ -258,7 +258,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-**Krrish Anand** - [@krrish-anand](https://github.com/krrish-anand)
+## 📧 Contact
+
+**Krrish Anand** - krrishanand3832@gmail.com - [@krrish-anand](https://github.com/krrish-anand)
 
 Project Link: [https://github.com/krrish-anand/Auto_Fraud_Detection](https://github.com/krrish-anand/Auto_Fraud_Detection)
 
