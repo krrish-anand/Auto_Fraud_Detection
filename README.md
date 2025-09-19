@@ -167,10 +167,6 @@ Auto_Fraud_Detection/
 │   └── insurance_claims.csv        # Training dataset
 ├── models/
 │   └── extra_trees_best_model.pkl  # Trained ML model (from Jupyter)
-├── notebooks/                      # Jupyter notebooks (development)
-│   ├── data_analysis.ipynb         # EDA and preprocessing
-│   ├── model_training.ipynb        # Model development
-│   └── model_evaluation.ipynb      # Performance analysis
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                     # Git ignore file
 ├── README.md                      # Project documentation
