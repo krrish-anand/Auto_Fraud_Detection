@@ -214,13 +214,26 @@ The model identified key fraud indicators through feature importance analysis:
 ## 📸 Screenshots
 
 ### Main Dashboard
-![Main Dashboard](https://via.placeholder.com/800x400?text=Streamlit+Fraud+Detection+Dashboard)
+![Main Dashboard](screenshots/main_dashboard.png)
+*Interactive fraud detection interface with input forms and prediction results*
 
 ### Step-by-Step Mode
-![Step-by-Step Mode](https://via.placeholder.com/800x400?text=Step-by-Step+Input+Mode)
+![Step-by-Step Mode](screenshots/step_by_step_mode.png)
+*Guided form filling experience with progress tracking*
+
+### Quick Form Mode
+![Quick Form Mode](screenshots/quick_form_mode.png)
+*Bulk data entry mode for power users*
 
 ### Prediction Results
-![Prediction Results](https://via.placeholder.com/800x400?text=Fraud+Prediction+Results)
+![Prediction Results](screenshots/prediction_results.png)
+*Fraud prediction output with confidence scores and recommendations*
+
+> **Note**: Place your screenshot images in the `screenshots/` folder with the following names:
+> - `main_dashboard.png` - Main application interface
+> - `step_by_step_mode.png` - Step-by-step input mode
+> - `quick_form_mode.png` - Quick form input mode  
+> - `prediction_results.png` - Prediction results display
 
 ## 🔮 Future Enhancements
 
